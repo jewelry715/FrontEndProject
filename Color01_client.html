@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Color Image Processing - Server (RC 1)</title>
+</head>
+<body>
+<h1> Color Image Processing (RC 1)</h1>
+<form action="Color01_server.jsp" method="post" enctype="multipart/form-data">
+<p> <select name="algo">
+		<option value=""> ~~Algorithm~~</option>
+		<option value="101">반전영상</option>
+		<option value="102">밝게/어둡게</option>
+		<option value="103">그레이스케일</option>
+		<option value="104">흑백</option>
+		<option value="105">동일영상</option>
+		<option value="106">감마</option>
+		<option value="107">파라볼라(캡)</option>
+		<option value="108">파라볼라(컵)</option>
+		<option value="109">상하미러링</option>
+		<option value="110">좌우미러링</option>
+		<option value="111">확대미러링</option>
+		<option value="134">확대미러링(전방향)</option>
+		<option value="112">축소미러링</option>
+		<option value="113">이동미러링</option>
+		<option value="114">회전미러링</option>
+		<option value="115">엠보싱</option>
+		<option value="116">블러링</option>
+		<option value="117">샤프닝</option>
+		<option value="118">고주파 샤프닝</option>
+		<option value="119">수평검출</option>
+		<option value="120">수직검출</option>
+		<option value="121">가우시안</option>
+		<option value="122">유사연산자 에지처리</option>
+		<option value="123">라플라시안</option>
+		<option value="124">스트래칭</option>
+		<option value="125">앤드인</option>
+		<option value="126">평활화</option>
+		<option value="127">채도</option>
+		<option value="128">오렌지 추출</option>
+		<option value="129">빨간색 추출</option>
+		<option value="130">노란색 추출</option>
+		<option value="131">연두색 추출</option>
+		<option value="132">파란색 추출</option>
+		<option value="133">보라색 추출</option>
+	</select>
+<p> Parameter1 : <input type="text" value="0" name="para1">
+<p> Parameter2 : <input type="text" value="0" name="para2">
+<p> Upload File : <input type="file" name="filename">
+<p><p><input type="submit" value="Processing!">
+</form>
+</body>
+</html>
