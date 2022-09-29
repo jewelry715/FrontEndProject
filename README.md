@@ -1,5 +1,5 @@
 # FrontEndProject
+[미니프로젝트_Ver1_(채송화).pdf](https://github.com/jewelry715/FrontEndProject/files/9671756/_Ver1_.pdf)
+[미니프로젝트_Ver2_(채송화).pdf](https://github.com/jewelry715/FrontEndProject/files/9671757/_Ver2_.pdf)
 
-[Uploading 미니프로젝트_Ver1_(채송화).pdf…]()
-[Uploading 미니프로젝트_Ver2_(채송화).pdf…]()
 Ver1은 흑백, Ver2는 컬러
